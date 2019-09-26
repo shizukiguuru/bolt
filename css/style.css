@@ -1,15 +1,15 @@
 @charset "utf-8";
 
-.body {
+body {
   font-family: "lato";
-}
-
-.raleway {
-  font-family: "Raleway";
 }
 
 a {
   text-decoration: none;
+}
+
+.raleway {
+  font-family: "Raleway";
 }
 
 .header {
@@ -51,7 +51,6 @@ main {
   background-color: #f2f2f2;
   padding-top: 70px;
   text-align: center;
-  width: 100%;
 }
 
 .theme {
@@ -59,7 +58,7 @@ main {
 }
 
 .theme-text {
-  background-color: #74cfae;
+  color: #74cfae;
   font-size: 90px;
   font-weight: 700;
 }
@@ -72,7 +71,6 @@ main {
 
 .iphone {
   background: #74cfae;
-  width: 100%;
 }
 
 .iphone-inner {
@@ -127,11 +125,11 @@ main {
   transition: all .3s;
 }
 
-.img-item:nth-child(n+4) {
+.img-item:nth-child(n+3) {
   margin-top: 80px;
 }
 
-.img-item:nth-child(3n-2) {
+.img-item:nth-child(3n+1) {
   margin-left: 0;
 }
 
@@ -171,7 +169,6 @@ main {
   flex-direction: column;
   padding: 70px 0 100px 0;
   text-align: center;
-  width: 100%;
 }
 
 .skill-text {
@@ -217,7 +214,6 @@ main {
 .footer {
   background: #74cfae;
   padding: 20px 0 25px 0;
-  width: 100%
 }
 
 .footer-text {
